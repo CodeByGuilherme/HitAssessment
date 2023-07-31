@@ -83,6 +83,7 @@
     text-align: center;
 }
 .btnsub{
+    margin-top: 20px;
     width: 160px;
     height: 40px;
     border-radius: 10px;
@@ -95,12 +96,14 @@
     font-family: "Montserrat";
 }
 .forminput{
+    margin-top: 30px;
     width: 292px;
     height: 46px;
     border-radius: 5px;
     background-color: #ffffff;
 }
 .msg{
+    margin-top: 15px;
     width: 600px;
     height: 200px;
     border-radius: 5px;
