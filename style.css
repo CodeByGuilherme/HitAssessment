@@ -1,55 +1,111 @@
 .maindoc {
-    background-color:RGB(45, 45, 45);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: white;
+    width: 100%;
+    height: 1080px;
+    background-color: #2d2d2d;
+    border: 1px solid #707070;
 }
-.mainlogo {
-    display: block;
-    margin-top: 65%;
-    margin-bottom: 25%;
+.mainlogo{
+    text-align: center;
 }
 .HitLogo {
     height: 50px;
     width: auto;
     text-align: center;
-    margin: 0px;
+    margin: 30px;
 }
 .buttoncontainer{
     text-align: center;
 }
 .button {
-    background-color: RGB(229, 118, 92);
-    color: white;
-    font-size: 12px;
-    padding: 10px 60px;
-    margin: 20px;
-    border: none;
-    cursor: pointer;
+    width: 200px;
+    height: 40px;
     border-radius: 10px;
+    filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.16));
+    background-image: linear-gradient(180deg, #ea916b 0%, #e05a4d 100%);
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.intro{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.linha{
+    background-color: #000000;
+    border: 2px solid #707070;
+    width: 100px;
+}
+.rectangle {
+    position: relative;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 6px;
+    background-image: linear-gradient(180deg, #ea916b 0%, #e05a4d 100%);
+    
 }
 .biocontainer {
-    width: 700px;
-    height: 350px;
-    background-color: RGB(234, 145, 107);
+    width: 780px;
+    height: 435px;
     border-radius: 10px;
-    margin-bottom: 500px;
-    
-        
+    filter: drop-shadow(0px 10px 11.5px rgba(0, 0, 0, 0.16));
+    background-color: #ea916b;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .biotext{
-    display: inline-block;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+    width: 700px;
+    height: 355px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin-left: 20px;
+    margin-top: 30px;
 }
-
+.formcontainer{
+    width: 680px;
+    height: 404px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 10px 11.5px rgba(0, 0, 0, 0.16));
+    background-color: #ea916b;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.btnsub{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.16));
+    background-color: #373735;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.forminput{
+    width: 292px;
+    height: 46px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.msg{
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
 @media screen and (max-width: 600px) {
     
     button {
